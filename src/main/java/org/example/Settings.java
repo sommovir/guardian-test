@@ -2,7 +2,7 @@ package org.example;
 
 public class Settings {
     private static Settings _instance = null;
-    private String API_KEY = "***REMOVED***";
+    private String API_KEY = "$ENV";
 
     private Settings() {
         System.out.println("prova");
