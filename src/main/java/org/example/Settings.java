@@ -5,6 +5,7 @@ public class Settings {
     private String API_KEY = "$ENV";
 
     private Settings() {
+        System.out.println("prova");
     }
 
     public static Settings getInstance() {
